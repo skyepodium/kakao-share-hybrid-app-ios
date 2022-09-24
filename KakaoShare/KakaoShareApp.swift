@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct KakaoShareApp: App {
+struct WebViewTuApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

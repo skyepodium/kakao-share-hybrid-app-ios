@@ -10,12 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            // 연동할 웹뷰 도메인 입력
+            webView(url: URL(string: "http://kakao-share.s3-website.ap-northeast-2.amazonaws.com/")!)
         }
-        .padding()
     }
 }
 

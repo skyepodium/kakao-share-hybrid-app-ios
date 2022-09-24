@@ -11,6 +11,8 @@
 		C8F9F2AF28DEDE1B003674A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F9F2AE28DEDE1B003674A9 /* ContentView.swift */; };
 		C8F9F2B128DEDE1F003674A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F9F2B028DEDE1F003674A9 /* Assets.xcassets */; };
 		C8F9F2B428DEDE1F003674A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F9F2B328DEDE1F003674A9 /* Preview Assets.xcassets */; };
+		C8F9F2BC28DEE228003674A9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F9F2BB28DEE228003674A9 /* WebView.swift */; };
+		C8F9F2BE28DEE34D003674A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F9F2BD28DEE34D003674A9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		C8F9F2AE28DEDE1B003674A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8F9F2B028DEDE1F003674A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8F9F2B328DEDE1F003674A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8F9F2BA28DEDFCB003674A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8F9F2BB28DEE228003674A9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C8F9F2BD28DEE34D003674A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		C8F9F2AB28DEDE1B003674A9 /* KakaoShare */ = {
 			isa = PBXGroup;
 			children = (
+				C8F9F2BB28DEE228003674A9 /* WebView.swift */,
+				C8F9F2BA28DEDFCB003674A9 /* Info.plist */,
 				C8F9F2AC28DEDE1B003674A9 /* KakaoShareApp.swift */,
 				C8F9F2AE28DEDE1B003674A9 /* ContentView.swift */,
 				C8F9F2B028DEDE1F003674A9 /* Assets.xcassets */,
 				C8F9F2B228DEDE1F003674A9 /* Preview Content */,
+				C8F9F2BD28DEE34D003674A9 /* ViewController.swift */,
 			);
 			path = KakaoShare;
 			sourceTree = "<group>";
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F9F2BC28DEE228003674A9 /* WebView.swift in Sources */,
 				C8F9F2AF28DEDE1B003674A9 /* ContentView.swift in Sources */,
+				C8F9F2BE28DEE34D003674A9 /* ViewController.swift in Sources */,
 				C8F9F2AD28DEDE1B003674A9 /* KakaoShareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +280,8 @@
 				DEVELOPMENT_TEAM = YRN5KQ4782;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KakaoShare/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +311,8 @@
 				DEVELOPMENT_TEAM = YRN5KQ4782;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KakaoShare/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
