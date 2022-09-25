@@ -13,7 +13,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
 
     // 웹뷰 목록 관리
     var webViews = [WKWebView]()
-
+    
     /// ---------- 팝업 열기 ----------
     /// - 카카오 JavaScript SDK의 로그인 기능은 popup을 이용합니다.
     /// - window.open() 호출 시 별도 팝업 webview가 생성되어야 합니다.
@@ -41,7 +41,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     // 웹뷰 생성 메서드 예제
     func createWebView(frame: CGRect, configuration: WKWebViewConfiguration) -> WKWebView {
         let webView = WKWebView(frame: frame, configuration: configuration)
-        
+
         // set delegate
         webView.uiDelegate = self
         webView.navigationDelegate = self

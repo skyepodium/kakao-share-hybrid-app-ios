@@ -33,10 +33,24 @@ struct webView:UIViewRepresentable {
             // 카카오톡 실행 가능 여부 확인 후 실행
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            } else {
+                 
+                   //앱 미설치시 앱스토어로 연결
+                if let openStore = URL(string: "itms-apps://itunes.apple.com/app/362057947"), UIApplication.shared.canOpenURL(openStore) {
+                    UIApplication.shared.open(openStore, options: [:], completionHandler: nil)
+                }
+                
             }
-
+            
             decisionHandler(.cancel); return
-        }
+        } else {
+            
+            //앱 미설치시 앱스토어로 연결
+         if let openStore = URL(string: "itms-apps://itunes.apple.com/app/362057947"), UIApplication.shared.canOpenURL(openStore) {
+             UIApplication.shared.open(openStore, options: [:], completionHandler: nil)
+         }
+         
+     }
 
         // 서비스에 필요한 나머지 로직을 구현합니다.
         decisionHandler(.allow)

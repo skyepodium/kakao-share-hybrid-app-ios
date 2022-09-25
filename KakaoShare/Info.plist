@@ -20,6 +20,35 @@
 				<string>kakaof9feb398085a26197c536c27c1695951://kakaolink</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>itms-apps://itunes.apple.com</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>itms-apps://itunes.apple.com/app/362057947</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>itms-appss://apps.apple.com/kr/app/kakaotog-kakaotalk/id362057947</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>kakolink</string>
+		<string>kakaokompassauth</string>
 	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
