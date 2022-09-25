@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 
 class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
-
+    
     // 웹뷰 목록 관리
     var webViews = [WKWebView]()
     

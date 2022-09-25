@@ -29,7 +29,6 @@ struct webView:UIViewRepresentable {
         return webView
     }
     
-
     func updateUIView(_ uiView: UIViewType, context: UIViewRepresentableContext<webView>) {
         print("!!! update")
     }
